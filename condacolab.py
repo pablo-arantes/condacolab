@@ -255,7 +255,7 @@ def install_mambaforge(
         of condacolab. Set it `False` to stop the kernel from restarting
         automatically and get a button instead to do it.
     """
-    installer_url = r"https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-colab-Linux-x86_64.sh"
+    installer_url = r"https://github.com/conda-forge/miniforge/releases/download/22.11.1-4/Mambaforge-22.11.1-4-Linux-x86_64.sh"
     install_from_url(installer_url, prefix=prefix, env=env, run_checks=run_checks, restart_kernel=restart_kernel)
 
 
@@ -297,7 +297,7 @@ def install_miniforge(
         of condacolab. Set it `False` to stop the kernel from restarting 
         automatically and get a button instead to do it.
     """
-    installer_url = r"https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge-colab-Linux-x86_64.sh"
+    installer_url = r"https://github.com/conda-forge/miniforge/releases/download/22.11.1-4/Mambaforge-22.11.1-4-Linux-x86_64.sh"
     install_from_url(installer_url, prefix=prefix, env=env, run_checks=run_checks, restart_kernel=restart_kernel)
 
 
